@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/sclsyin/OpenWrt-Lienol
+  REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: 21.02
   FEEDS_CONF: ssr-feeds.conf.default
   CONFIG_FILE: ssr.config
