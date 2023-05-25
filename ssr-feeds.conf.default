@@ -1,0 +1,10 @@
+src-git packages https://github.com/sclsyin/openwrt-packages.git;21.02
+src-git luci https://github.com/sclsyin/openwrt-luci.git;21.02
+src-git routing https://git.openwrt.org/feed/routing.git;openwrt-21.02
+src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-21.02
+#src-link custom /usr/src/openwrt/custom-feed
+src-git lienol https://github.com/sclsyin/openwrt-package.git;main
+src-git other https://github.com/sclsyin/openwrt-package.git;other
+src-git helloworld https://github.com/sclsyin/helloworld.git
+#src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
+#src-git luci_passwall https://github.com/xiaorouji/openwrt-passwall.git;luci
