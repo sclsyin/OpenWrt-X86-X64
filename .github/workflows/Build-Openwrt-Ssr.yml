@@ -46,7 +46,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo docker rmi `docker images -q`
-        sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc /etc/mysql /etc/php 
+        sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc 
         sudo -E apt-get -qq update
         sudo -E apt-get -qq install $(curl -fsSL https://raw.githubusercontent.com/sclsyin/OpenWrt-Lienol-X86-X64/main/ubuntu-2004-lienol)
         sudo -E apt-get -qq autoremove --purge
