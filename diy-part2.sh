@@ -18,6 +18,3 @@ sed -i 's/192.168.2.1/192.168.50.5/g' package/base-files/files/bin/config_genera
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
-###
-sed -i '39i\GO_PKG_TARGET_VARS:=$(filter-out CGO_ENABLED=%,$(GO_PKG_TARGET_VARS)) CGO_ENABLED=1\n' mosdns/Makefile
-sed -i '40i\nGO_PKG_TARGET_VARS:=$(filter-out CGO_ENABLED=%,$(GO_PKG_TARGET_VARS)) CGO_ENABLED=1' v2dat/Makefile
