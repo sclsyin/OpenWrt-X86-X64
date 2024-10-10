@@ -15,6 +15,9 @@
 
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-git clone https://github.com/op4packages/pdnsd-alt ./package/pdnsd-alt
-git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
+git clone https://github.com/op4packages/pdnsd-alt package/pdnsd-alt
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+# git clone https://github.com/tty228/luci-app-wechatpush package/luci-app-wechatpush
