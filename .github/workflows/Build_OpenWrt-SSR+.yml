@@ -1,12 +1,12 @@
-name: Build X86_64 Version OpenWrt
+name: Build X86_64 Version OpenWrt Hellowod
 
 on:
   repository_dispatch:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 23.05
+  REPO_URL: https://github.com/Lienol/openwrt/
+  REPO_BRANCH: employ
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
