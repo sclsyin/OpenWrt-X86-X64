@@ -92,7 +92,7 @@ jobs:
     - name: Clone source code
       working-directory: ./
       run: |
-        git clone $REPO_URL -b --single-branch --depth=1 $REPO_BRANCH openwrt
+        git clone -b $REPO_BRANCH --single-branch --depth=1 $REPO_URL openwrt
 
     - name: Load custom feeds
       run: |
