@@ -6,3 +6,5 @@ src-git-full telephony https://git.openwrt.org/feed/telephony.git;openwrt-22.03
 src-git store https://github.com/linkease/istore.git;main
 # argon, etc.
 src-git third https://github.com/jjm2473/openwrt-third.git;main
+src-git nas https://github.com/linkease/nas-packages.git;master
+src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main
